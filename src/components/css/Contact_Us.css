@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+.contactIcon {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: rgb(255, 186, 186);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactDetails .row .contactCards {
+    height: 200px;
+    border: 5px solid #EDEDED;
+    border-radius: 30px;
+    margin: 10px;
+    padding-top: 30px;
+}
+
+.contactDesc {
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactForm {
+    margin: auto;
+}
+
+.contactDetails h1 {
+    color: black;
+    margin: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactUsForm {
+    display: block;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactUsForm button {
+    color: red;
+    background-color: transparent;
+    font-weight: 700;
+    border: 2px solid black;
+    padding: 10px 50px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+.contactUsForm button:hover {
+    box-shadow: 0 0 5px red;
+    background-color: black;
+    color: white;
+}
+
+.contactUsForm input {
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid red;
+    margin: 5px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactUsForm textarea {
+    height: 200px;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid red;
+    margin: 5px;
+}
+
+.contactUsVector {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    height: 500px;
+    width: 500px;
+}
+
+.contactUsContainer {
+    display: inline-flex;
+}
+
+.contactUsItem {
+    width: 50%;
+    margin: auto;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+
+    50% {
+        transform: translate(0, 25px);
+    }
+
+    100% {
+        transform: translate(0, -0px);
+    }
+}

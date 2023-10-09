@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+.logo {
+    height: 8vh;
+}
+
+.nav-menu {
+    font-family: 'Poppins', sans-serif;
+}
+
+.menuItem {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 14pt;
+    border-bottom: 1px solid transparent;
+    transition-duration: 0.5s;
+}
+Nav .menuItem:hover {
+    border-bottom: 1px solid red;
+    text-shadow: 0 0 5px red, 
+    0 0 10px red;
+}

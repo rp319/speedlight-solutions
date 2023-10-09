@@ -1,0 +1,58 @@
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 0 5px red,
+    0 0 10px red;
+}
+
+footer .row {
+    margin:auto;
+}
+
+footer .row .col {
+    display: block;
+    margin: auto;
+}
+
+h6 {
+    text-align: center;
+}
+
+/* .copyright {
+    text-align: left;
+}
+
+.socialLinks ul li img {
+    width: 35px;
+    height: 35px;
+    border: 2px solid grey;
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.socialLinks ul {
+    margin: auto;
+}
+
+.socialLinks ul li {
+    display: inline-flex;
+    margin: 3px;
+    border-radius: 50px;
+    transition-duration: 0.5s;
+}
+
+.socialLinks ul li:hover {
+    box-shadow: 0 0 30px red,
+    0 0 40px red;
+    cursor: pointer;
+}
+
+.indiaIcon {
+    width: 35px;
+}
+
+.made {
+    text-align: right;
+} */

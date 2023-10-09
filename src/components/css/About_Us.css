@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@300&family=Rubik:wght@300&display=swap');
+
+.container-full-width {
+    
+}
+
+.container-full-width .pageTitle { 
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 5vh;
+    font-weight: 700;
+    color: white;
+    padding: 10%;
+    border-bottom: 3px solid red;
+    margin: 0;
+    background-image: url('../JPG_Backgrounds/BG1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container-full-width h1::before {
+    border-radius: 100% 50%;
+}
+
+
+.container-full-width h1::after {
+    border-radius: 100% 50%;
+}
+
+.container-full-width .text-center {
+    background-color: white;
+}
+
+.aboutUsContainer .aboutUs {
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+    padding: 2%;
+    color: white;
+}
+
+.aboutUsContainer .aboutUs h1{
+    color: red;
+    font-weight: 600;
+    padding: 0;
+    border-bottom: 1px solid black;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+
+.aboutUsContainer .aboutUs .aboutUsDesc {
+    color: black;
+    text-align: justify;
+} 
+
+.aboutUsContainer .aboutUs .aboutUsDesc span {
+    color: red;
+    font-weight: 600;
+}
+
+.aboutUsContainer .aboutUs h1 {
+    background-color: white;  
+}
+
+.aboutUsContainer .aboutUs h6 {
+    color: red;
+    text-align: justify;
+}
+
+.aboutUsContainer .aboutUs h2 {
+    color: black;
+    text-align: left;
+}
+
+.aboutUsContainer .aboutUs li span   {
+    height: 20px;
+    width: 20px;
+}
+
+.subServices {
+    margin-left: 5%;
+}
+
+.subServices li span{
+    margin-right: 5px;
+}
+
+.point {
+    background-color: black;
+    box-shadow: 0 0 10px red;
+    padding: 7px;
+    border-radius: 100%;
+}
+
+.aboutUs button {
+    background-color: black;
+    padding: 8px 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 5px red;
+    color: white;
+    font-weight: 700;
+    transition-duration: .5s;
+}
+
+.aboutUs button:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px black;
+}
+
+.aboutUsContainer .aboutUs li { 
+    font-size: 15pt;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding: 0;
+    margin: auto;
+}
+
+.aboutUsContainer .aboutUs ul {
+    padding: 0;
+}
+
+.aboutUsContainer .aboutUs ul li {
+    color: black;
+    margin: 10px 0;
+    text-align: justify;
+    list-style: none;
+}
+
+.aboutUsContainer .aboutUs ul img {
+    height: 30px;
+    width: 30px;
+    margin: 0 10px;
+    display: inline;
+}
+
+.membersCard {
+    margin: 10px;
+}
+
+.ourVisionLines {
+    color: white;
+    text-align: justify;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ourVisionLines h4 { 
+    font-weight: 600;
+}
+
+.ourVisionLines p { 
+    color: grey;
+}
+
+.ourMission {
+    color: black;
+    text-align: justify;
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ourMission h4 { 
+    font-weight: 600;
+}
+
+.ourMission p { 
+    color: grey;
+}
+
+.aboutUsContainer2 {
+    background-color: black;
+    width: 90%;
+    border-top-right-radius: 400px;
+    border-bottom-right-radius: 400px;
+    box-shadow: 0 0 10px red;
+}
+
+.visionVector {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% { transform: translate(0,  0px); }
+    50%  { transform: translate(0, 25px); }
+    100%   { transform: translate(0, -0px); }   
+}
+
+@media only screen and (max-width: 600px) {
+
+    .aboutUsContainer .aboutUs {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+    }
+
+    .container-full-width h1 { 
+        padding: 25% 0 15% 0; 
+    }
+}
