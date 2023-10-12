@@ -1,5 +1,5 @@
-import './components/css/About_Us.css'
- const Contact = () => {
+import './components/css/Contact_Us.css'
+const Contact = () => {
 
   const linkToOpen = 'https://speedlightsolutions.ca/';
 
@@ -10,8 +10,8 @@ import './components/css/About_Us.css'
   }
 
   function initiateEmail() {
-    const emailAddress = 'enquiry@speedlightsolutions.ca'; 
-    const subject = 'Enquiry'; 
+    const emailAddress = 'enquiry@speedlightsolutions.ca';
+    const subject = 'Enquiry';
     const body = 'Hello, I wanted to get in touch with you.';
     const mailtoURI = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
     window.location.href = mailtoURI;
@@ -31,25 +31,25 @@ import './components/css/About_Us.css'
             <div className="contactDetails">
               <div className="row">
                 <div className="col-lg-3 col-sm-6">
-                  <div className="item"><div className='circle'><img id='icon' src="./Icons/ic_location.svg"></img></div>
+                  <div className="item"><div className='circle contactCircle'><img id='icon iconContact' src="./Icons/ic_location.svg"></img></div>
                     <h6>Address</h6>
                     <p>55 Hedge End Road Toronto Canada- M1B5Z4</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-sm-6" onClick={initiateCall}>
-                  <div className="item"><div className='circle'><img id='icon' src="./Icons/ic_phone.svg"></img> </div>
+                  <div className="item"><div className='circle contactCircle'><img id='icon iconContact' src="./Icons/ic_phone.svg"></img> </div>
                     <h6>Phone</h6>
                     <p>+1 (705) 562-2329</p>
                   </div>
                 </div>
                 <div className="col-lg-3 col-sm-6" onClick={initiateEmail}>
-                  <div className="item"><div className='circle'><img id='icon' src="./Icons/ic_location.svg"></img> </div>
+                  <div className="item"><div className='circle contactCircle'><img id='icon iconContact' src="./Icons/ic_location.svg"></img> </div>
                     <h6>Email</h6>
                     <p>enquiry@speedlightsolutions.ca</p>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6"       onClick={() => openLinkInNewTab(linkToOpen)}>
-                  <div className="item"><div className='circle'><img id='icon' src="./Icons/ic_website.svg"></img> </div>
+                <div className="col-lg-3 col-sm-6" onClick={() => openLinkInNewTab(linkToOpen)}>
+                  <div className="item"><div className='circle contactCircle'><img id='icon iconContact' src="./Icons/ic_website.svg"></img> </div>
                     <h6>Website</h6>
                     <p>www.speedlightsolutions.ca</p>
                   </div>

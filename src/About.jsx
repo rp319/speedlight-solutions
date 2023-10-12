@@ -1,7 +1,5 @@
 import './components/css/About_Us.css'
 
-
-
  const About = () => {
   return (
     <div className="container-full-width">

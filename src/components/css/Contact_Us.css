@@ -91,6 +91,12 @@
     margin: auto;
 }
 
+.item .contactCircle {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+}
+
 @keyframes floating {
     0% {
         transform: translate(0, 0px);

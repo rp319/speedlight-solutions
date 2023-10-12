@@ -54,6 +54,7 @@
 .aboutUsContainer .aboutUs .aboutUsDesc {
     color: black;
     text-align: justify;
+    margin-bottom: 20px;
 } 
 
 .aboutUsContainer .aboutUs .aboutUsDesc span {
@@ -68,11 +69,14 @@
 .aboutUsContainer .aboutUs h6 {
     color: red;
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 .aboutUsContainer .aboutUs h2 {
     color: black;
+    font-weight: 700;
     text-align: left;
+    margin-bottom: 20px;
 }
 
 .aboutUsContainer .aboutUs li span   {
